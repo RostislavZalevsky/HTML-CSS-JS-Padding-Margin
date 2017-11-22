@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Padding & Margin</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>Padding & Margin</header>
+<main>
+    <div id="EditProperty">
+        <div>
+            <b>Margin&rarr;</b>
+            <label>
+                top:<input id="margin-top" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                bottom:<input id="margin-bottom" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                left:<input id="margin-left" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                right:<input id="margin-right" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+        </div>
+        <div>
+            <b>Border&rarr;</b>
+            <label>
+                top:<input id="border-top" type="number" value="1" min="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                bottom:<input id="border-bottom" type="number" value="1" min="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                left:<input id="border-left" type="number" value="1" min="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                right:<input id="border-right" type="number" value="1" min="0" oninput="ChangeProperty()" />
+            </label>
+        </div>
+        <div>
+            <b>Padding&rarr;</b>
+            <label>
+                top:<input id="padding-top" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                bottom:<input id="padding-bottom" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                left:<input id="padding-left" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+            <label>
+                right:<input id="padding-right" type="number" value="0" oninput="ChangeProperty()" />
+            </label>
+        </div>
+    </div>
+
+    <div id="Text" contenteditable="true">
+        Type some text...
+    </div>
+
+    <hr/>
+</main>
+<footer>
+    <a href="http://GitHub.com/RostislavZalevsky" target="_blank">By Rostislav Zalevsky &copy; 2017</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
